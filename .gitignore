@@ -7,3 +7,10 @@
 /build
 /captures
 .externalNativeBuild
+
+#Android studio config file
+.idea/
+
+# Gradle generated files
+.gradle/
+gradle/
