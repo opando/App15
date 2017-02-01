@@ -9,15 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="pe.com.opm.app15.DatosActivity">
-
-
-    <com.facebook.login.widget.ProfilePictureView
-        android:id="@+id/imageFace"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        />
+    tools:context="pe.com.opm.app15.LoginDatosActivity">
 
 
     <TextView
@@ -28,4 +20,25 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
         android:id="@+id/tv_nombre_face" />
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/imageFace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp" />
+
+    <Button
+        android:text="Continuar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_nombre_face"
+        android:layout_marginTop="49dp"
+        android:id="@+id/btn_continuar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:elevation="7dp" />
+
+
 </RelativeLayout>
